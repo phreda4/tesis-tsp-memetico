@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////
+//
+//
+//
+/////////////////////////////////////////////////////////////////////
+#ifndef POPULAT_H
+#define POPULAT_H
+
+#include "gen.h"
+
+class Population {
+  private:
+    int cntGenes;
+    Gen *genes;
+    
+  public:
+    Population() {};
+    ~Population(){};
+
+
+  };
+
+#endif

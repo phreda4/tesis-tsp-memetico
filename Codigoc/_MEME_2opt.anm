@@ -1,0 +1,882 @@
+51 String state
+19 Tsp tsp
+9 tsp instance ../codigojava/resources/circle16.tsp
+9 state 'cargando instancia'
+128 state 'inicializando memetico'
+14 state 'run memetico'
+11 Tsp tsp0
+10 tsp0 instance xxx
+11 tsp0 add 13 12
+11 tsp0 add 12 11
+10 tsp0 add 11 10
+11 tsp0 add 10 9
+10 tsp0 add 9 8
+10 tsp0 add 8 7
+16 tsp0 add 7 6
+14 tsp0 add 6 5
+10 tsp0 add 5 4
+10 tsp0 add 4 3
+10 tsp0 add 3 2
+9 tsp0 add 2 1
+9 tsp0 add 1 0
+9 tsp0 add 0 15
+9 tsp0 add 15 14
+9 tsp0 add 14 13
+9 Tsp tsp1
+9 tsp1 instance xxx
+12 tsp1 add 12 11
+9 tsp1 add 11 10
+9 tsp1 add 10 9
+9 tsp1 add 9 8
+10 tsp1 add 8 7
+10 tsp1 add 7 6
+10 tsp1 add 6 5
+9 tsp1 add 5 4
+8 tsp1 add 4 3
+8 tsp1 add 3 2
+14 tsp1 add 2 1
+9 tsp1 add 1 0
+9 tsp1 add 0 15
+8 tsp1 add 15 14
+8 tsp1 add 14 13
+9 tsp1 add 13 12
+15 Tsp tsp2
+17 tsp2 instance xxx
+16 tsp2 add 12 11
+29 tsp2 add 11 10
+9 tsp2 add 10 9
+7 tsp2 add 9 8
+10 tsp2 add 8 7
+14 tsp2 add 7 6
+11 tsp2 add 6 5
+12 tsp2 add 5 4
+10 tsp2 add 4 3
+13 tsp2 add 3 2
+15 tsp2 add 2 1
+10 tsp2 add 1 0
+9 tsp2 add 0 15
+8 tsp2 add 15 14
+8 tsp2 add 14 13
+10 tsp2 add 13 12
+11 Tsp tsp3
+8 tsp3 instance xxx
+9 tsp3 add 10 9
+12 tsp3 add 9 8
+14 tsp3 add 8 7
+10 tsp3 add 7 6
+10 tsp3 add 6 5
+10 tsp3 add 5 4
+11 tsp3 add 4 3
+11 tsp3 add 3 2
+11 tsp3 add 2 1
+11 tsp3 add 1 0
+11 tsp3 add 0 15
+18 tsp3 add 15 14
+14 tsp3 add 14 13
+11 tsp3 add 13 12
+11 tsp3 add 12 11
+11 tsp3 add 11 10
+11 Tsp tsp4
+11 tsp4 instance xxx
+12 tsp4 add 10 9
+11 tsp4 add 9 8
+11 tsp4 add 8 7
+9 tsp4 add 7 6
+8 tsp4 add 6 5
+9 tsp4 add 5 4
+8 tsp4 add 4 3
+10 tsp4 add 3 2
+17 tsp4 add 2 1
+18 tsp4 add 1 0
+18 tsp4 add 0 15
+9 tsp4 add 15 14
+8 tsp4 add 14 13
+8 tsp4 add 13 12
+8 tsp4 add 12 11
+9 tsp4 add 11 10
+23 tsp3 clear
+12 tsp1 clear
+11 tsp2 clear
+16 tsp3 clear
+20 tsp1 clear
+16 tsp2 clear
+12 tsp1 clear
+11 tsp1 clear
+11 tsp1 clear
+11 tsp4 clear
+11 tsp4 clear
+11 tsp0 clear
+11 tsp1 clear
+11 tsp1 clear
+11 tsp1 clear
+16 tsp2 clear
+16 tsp4 clear
+17 tsp1 clear
+14 tsp4 clear
+14 tsp4 clear
+14 tsp4 clear
+14 tsp3 clear
+18 tsp4 clear
+32 tsp3 clear
+29 tsp1 clear
+31 tsp0 clear
+75 tsp2 clear
+17 tsp1 clear
+15 tsp2 clear
+23 tsp4 opt4 8 7 2 1 14 13 11 10
+28 tsp4 opt2 14 7 13 12
+21 tsp4 opt2 13 8 12 11
+20 tsp4 opt2 12 7 11 1
+20 tsp4 opt2 11 8 10 2
+16 tsp4 opt2 8 2 7 1
+10 tsp0 clear
+10 tsp0 clear
+10 tsp3 opt4 8 7 4 3 1 0 11 10
+12 tsp3 opt2 11 3 10 9
+9 tsp3 opt2 9 3 7 6
+10 tsp3 opt2 10 4 9 8
+16 tsp3 opt2 8 4 7 9
+11 tsp3 opt2 9 4 8 0
+11 tsp3 opt2 1 7 0 4
+10 tsp3 opt2 7 4 6 3
+9 tsp1 clear
+11 tsp3 opt4 12 11 8 7 4 3 1 0
+10 tsp3 opt2 12 3 11 10
+11 tsp3 opt2 10 3 11 12
+9 tsp3 opt2 12 3 9 8
+8 tsp3 opt2 8 3 7 6
+10 tsp3 opt2 9 12 8 7
+9 tsp3 opt2 7 12 6 3
+8 tsp3 opt2 3 12 4 5
+8 tsp3 opt2 5 12 3 2
+8 tsp3 opt2 2 12 0 8
+10 tsp3 opt2 8 12 7 6
+9 tsp3 opt2 6 12 4 3
+8 tsp3 opt2 3 12 2 1
+8 tsp3 opt2 1 12 0 2
+8 tsp3 opt2 2 12 1 7
+10 tsp3 opt2 7 12 6 4
+31 tsp3 opt2 4 12 3 5
+22 tsp3 opt2 5 12 4 11
+14 tsp3 clear
+11 tsp4 clear
+11 tsp2 clear
+10 tsp0 clear
+10 tsp3 clear
+10 tsp0 clear
+14 tsp2 clear
+11 tsp3 opt4 13 12 10 9 6 5 14 13
+10 tsp3 opt2 14 9 13 5
+9 tsp3 opt2 5 9 6 12
+9 tsp3 opt2 9 12 10 13
+9 tsp2 clear
+10 tsp0 clear
+10 tsp0 clear
+10 tsp4 clear
+10 tsp2 opt4 11 12 14 15 4 5 8 9
+10 tsp2 opt2 4 12 5 6
+9 tsp2 opt2 6 12 8 7
+8 tsp2 opt2 7 12 9 10
+9 tsp2 opt2 5 11 6 8
+9 tsp2 opt2 7 9 8 15
+9 tsp2 opt2 8 11 9 15
+9 tsp2 opt2 9 14 10 11
+9 tsp2 opt2 10 12 11 15
+6 tsp2 opt2 11 14 12 15
+6 tsp3 clear
+7 tsp1 opt4 13 12 8 7 1 0 14 13
+6 tsp1 opt2 14 7 13 0
+6 tsp1 opt2 7 6 8 13
+7 tsp1 opt2 13 6 12 11
+5 tsp1 opt2 11 6 14 15
+5 tsp1 opt2 15 6 1 12
+7 tsp1 opt2 7 0 6 12
+6 tsp1 opt2 1 15 0 12
+6 tsp1 opt2 15 12 14 11
+6 tsp1 clear
+6 tsp1 clear
+6 tsp0 clear
+6 tsp2 clear
+6 tsp0 clear
+6 tsp2 clear
+6 tsp1 clear
+6 tsp4 clear
+6 tsp4 clear
+6 tsp0 opt4 11 12 15 0 4 5 8 9
+6 tsp0 opt2 0 1 15 9
+6 tsp0 opt2 5 11 4 12
+9 tsp0 opt2 1 9 0 8
+7 tsp3 clear
+6 tsp4 clear
+7 tsp4 clear
+6 tsp4 clear
+7 tsp2 opt4 11 12 14 15 1 2 6 7
+7 tsp2 opt2 1 12 2 3
+6 tsp2 opt2 3 12 5 4
+5 tsp2 opt2 4 12 15 6
+6 tsp2 opt2 2 11 3 4
+5 tsp2 opt2 4 11 5 3
+5 tsp2 opt2 3 11 4 15
+6 tsp2 opt2 6 12 7 8
+9 tsp2 opt2 7 14 8 9
+18 tsp2 opt2 8 12 9 10
+7 tsp2 opt2 9 14 10 11
+7 tsp2 opt2 10 12 11 15
+5 tsp2 opt2 11 14 12 15
+6 tsp1 clear
+6 tsp1 clear
+14 tsp0 opt4 12 13 0 1 3 4 8 9
+6 tsp0 opt2 0 9 1 2
+5 tsp0 opt2 2 9 4 5
+8 tsp0 opt2 1 8 2 3
+8 tsp0 opt2 2 4 3 13
+8 tsp0 opt2 3 8 4 13
+8 tsp0 opt2 4 12 5 6
+7 tsp0 opt2 6 12 8 7
+8 tsp0 opt2 7 12 9 5
+5 tsp0 opt2 5 12 6 8
+5 tsp0 opt2 7 9 8 13
+26 tsp0 opt2 8 12 9 13
+9 tsp0 clear
+7 tsp1 clear
+6 tsp4 opt4 13 14 1 2 4 5 7 8
+6 tsp4 opt2 1 8 2 3
+5 tsp4 opt2 2 7 3 4
+5 tsp4 opt2 3 8 4 14
+5 tsp4 opt2 4 7 5 13
+5 tsp4 opt2 7 13 8 14
+6 tsp3 clear
+6 tsp0 clear
+10 tsp1 clear
+8 tsp2 opt4 2 3 6 7 10 11 13 14
+5 tsp2 opt2 2 11 3 4
+4 tsp2 opt2 4 11 1 0
+4 tsp2 opt2 0 11 14 15
+4 tsp2 opt2 15 11 13 7
+5 tsp2 opt2 1 4 15 13
+4 tsp2 opt2 13 4 14 0
+4 tsp2 opt2 0 4 1 15
+4 tsp2 opt2 6 14 7 8
+4 tsp2 opt2 8 14 10 9
+4 tsp2 opt2 9 14 11 7
+4 tsp2 opt2 7 14 8 10
+4 tsp2 opt2 9 11 10 3
+4 tsp2 opt2 10 14 11 3
+4 tsp2 opt2 14 3 15 4
+4 tsp2 clear
+4 tsp1 clear
+4 tsp4 clear
+4 tsp2 clear
+4 tsp0 clear
+4 tsp2 opt4 10 11 14 15 4 5 7 8
+4 tsp2 opt2 4 11 5 6
+4 tsp2 opt2 5 10 6 7
+4 tsp2 opt2 6 11 7 15
+4 tsp2 opt2 7 10 8 14
+4 tsp2 opt2 10 14 11 15
+4 tsp3 clear
+4 tsp4 clear
+4 tsp4 clear
+4 tsp1 clear
+4 tsp3 clear
+4 tsp2 clear
+4 tsp4 clear
+4 tsp3 clear
+4 tsp2 clear
+4 tsp1 clear
+4 tsp4 clear
+4 tsp2 clear
+4 tsp0 clear
+9 tsp0 clear
+7 tsp4 clear
+6 tsp2 clear
+5 tsp4 clear
+5 tsp0 opt4 13 14 1 2 4 5 8 9
+4 tsp0 opt2 1 9 2 3
+4 tsp0 opt2 2 8 3 4
+5 tsp0 opt2 3 9 4 14
+4 tsp0 opt2 4 8 5 13
+5 tsp0 opt2 8 13 9 14
+7 tsp4 clear
+5 tsp1 clear
+5 tsp4 clear
+4 tsp0 clear
+6 tsp4 clear
+5 tsp1 clear
+4 tsp3 clear
+4 tsp3 clear
+4 tsp0 clear
+4 tsp2 clear
+4 tsp1 opt4 10 11 15 0 3 4 8 9
+4 tsp1 opt2 0 1 15 9
+5 tsp1 opt2 4 10 3 11
+7 tsp1 opt2 1 9 0 8
+7 tsp4 clear
+8 tsp3 clear
+8 tsp1 clear
+7 tsp3 clear
+6 tsp4 clear
+6 tsp0 clear
+6 tsp3 clear
+6 tsp4 opt4 12 13 1 2 4 5 8 9
+6 tsp4 opt2 1 9 2 3
+6 tsp4 opt2 2 8 3 4
+5 tsp4 opt2 3 9 4 13
+6 tsp4 opt2 4 8 5 12
+6 tsp4 opt2 8 12 9 13
+6 tsp1 clear
+6 tsp1 clear
+6 tsp0 clear
+6 tsp1 clear
+6 tsp1 clear
+6 tsp4 clear
+6 tsp3 clear
+6 tsp4 clear
+6 tsp4 opt4 10 11 13 14 3 4 8 9
+6 tsp4 opt2 3 11 4 5
+6 tsp4 opt2 4 10 5 6
+6 tsp4 opt2 5 11 6 7
+6 tsp4 opt2 6 10 7 8
+6 tsp4 opt2 7 11 8 14
+6 tsp4 opt2 8 10 9 13
+6 tsp4 opt2 10 13 11 14
+7 tsp2 clear
+5 tsp4 clear
+5 tsp3 clear
+5 tsp2 opt4 9 10 12 13 15 0 2 3
+5 tsp2 opt2 0 1 15 10
+5 tsp2 opt2 13 2 12 3
+5 tsp2 opt2 0 9 1 10
+5 tsp3 clear
+5 tsp1 clear
+5 tsp0 clear
+5 tsp3 clear
+5 tsp0 opt4 11 12 14 15 1 2 5 6
+6 tsp0 opt2 1 12 2 3
+5 tsp0 opt2 3 12 5 4
+4 tsp0 opt2 4 12 15 5
+4 tsp0 opt2 5 12 6 7
+5 tsp0 opt2 2 11 3 4
+4 tsp0 opt2 4 11 5 3
+4 tsp0 opt2 3 11 4 15
+5 tsp0 opt2 6 14 7 8
+4 tsp0 opt2 8 14 10 9
+4 tsp0 opt2 9 14 11 10
+4 tsp0 opt2 10 14 12 7
+4 tsp0 opt2 7 14 8 9
+4 tsp0 opt2 8 10 9 11
+4 tsp0 opt2 9 14 10 11
+4 tsp0 opt2 10 12 11 15
+4 tsp0 opt2 11 14 12 15
+5 tsp4 opt4 5 6 11 12 15 0 3 4
+4 tsp4 opt2 0 1 15 6
+4 tsp4 opt2 12 3 11 4
+7 tsp4 opt2 0 5 1 6
+5 tsp0 clear
+5 tsp4 opt4 7 8 10 11 2 3 5 6
+5 tsp4 opt2 2 8 3 4
+4 tsp4 opt2 3 7 4 5
+4 tsp4 opt2 4 8 5 11
+4 tsp4 opt2 5 7 6 10
+5 tsp4 opt2 7 10 8 11
+21 tsp3 clear
+8 tsp3 opt4 12 13 15 0 5 6 9 10
+10 tsp3 opt2 0 1 15 10
+8 tsp3 opt2 9 8 10 1
+9 tsp3 opt2 12 6 13 14
+10 tsp3 opt2 14 6 11 10
+13 tsp3 opt2 10 6 8 1
+8 tsp3 opt2 0 9 1 2
+5 tsp3 opt2 2 9 4 3
+4 tsp3 opt2 3 9 5 4
+4 tsp3 opt2 4 9 6 1
+4 tsp3 opt2 1 9 2 3
+4 tsp3 opt2 2 4 3 5
+4 tsp3 opt2 3 9 4 5
+4 tsp3 opt2 4 6 5 13
+4 tsp3 opt2 5 9 6 13
+4 tsp3 opt2 8 10 9 13
+4 tsp3 opt2 10 13 11 14
+5 tsp3 opt4 11 12 14 15 4 5 9 10
+5 tsp3 opt2 4 12 5 6
+4 tsp3 opt2 6 12 8 7
+4 tsp3 opt2 7 12 9 8
+4 tsp3 opt2 8 12 7 6
+4 tsp3 opt2 6 12 10 11
+4 tsp3 opt2 5 11 6 8
+4 tsp3 opt2 6 10 7 9
+4 tsp3 opt2 8 11 9 15
+4 tsp3 opt2 10 14 11 15
+5 tsp1 clear
+5 tsp3 clear
+5 tsp4 clear
+5 tsp2 clear
+5 tsp1 clear
+5 tsp2 clear
+4 tsp1 clear
+3 tsp0 clear
+3 tsp3 clear
+3 tsp3 opt4 12 13 15 0 3 4 6 7
+3 tsp3 opt2 0 1 15 7
+3 tsp3 opt2 4 12 3 13
+3 tsp3 opt2 1 7 0 6
+3 tsp2 clear
+3 tsp3 clear
+3 tsp3 clear
+3 tsp3 clear
+3 tsp3 clear
+3 tsp0 clear
+3 tsp1 clear
+3 tsp1 clear
+3 tsp0 clear
+3 tsp0 clear
+3 tsp1 clear
+3 tsp0 clear
+3 tsp3 clear
+6 tsp1 clear
+4 tsp0 clear
+3 tsp0 clear
+3 tsp4 clear
+3 tsp3 clear
+3 tsp3 opt4 10 11 13 14 2 3 7 8
+4 tsp3 opt2 2 11 3 4
+3 tsp3 opt2 4 11 1 0
+3 tsp3 opt2 0 11 14 15
+3 tsp3 opt2 15 11 13 8
+8 tsp3 opt2 3 10 4 1
+3 tsp3 opt2 7 14 8 9
+3 tsp3 opt2 8 11 9 10
+3 tsp3 opt2 9 14 10 1
+3 tsp3 opt2 13 15 14 1
+3 tsp3 opt2 14 0 15 1
+3 tsp3 clear
+3 tsp2 clear
+3 tsp0 clear
+3 tsp2 clear
+3 tsp4 clear
+3 tsp2 opt4 11 12 3 4 6 7 9 10
+3 tsp2 opt2 3 10 4 5
+3 tsp2 opt2 4 9 5 6
+3 tsp2 opt2 5 10 6 12
+3 tsp2 opt2 6 9 7 11
+3 tsp2 opt2 9 11 10 12
+3 tsp2 clear
+3 tsp4 opt4 10 11 13 14 0 1 8 9
+3 tsp4 opt2 0 11 1 2
+3 tsp4 opt2 2 11 15 14
+3 tsp4 opt2 14 11 13 9
+3 tsp4 opt2 1 10 2 15
+3 tsp4 opt2 8 14 9 10
+3 tsp4 opt2 9 11 10 15
+3 tsp4 opt2 10 14 11 15
+4 tsp0 clear
+4 tsp3 clear
+3 tsp4 clear
+3 tsp2 clear
+3 tsp4 opt4 10 11 13 14 2 3 8 9
+4 tsp4 opt2 2 11 3 4
+3 tsp4 opt2 4 11 1 0
+3 tsp4 opt2 0 11 14 15
+3 tsp4 opt2 15 11 13 9
+3 tsp4 opt2 3 10 4 1
+3 tsp4 opt2 8 14 9 10
+3 tsp4 opt2 9 11 10 1
+3 tsp4 opt2 10 14 11 1
+3 tsp4 opt2 13 15 14 1
+3 tsp4 opt2 14 0 15 1
+3 tsp3 clear
+3 tsp1 clear
+3 tsp3 clear
+3 tsp2 opt4 11 12 15 0 6 7 9 10
+3 tsp2 opt2 0 1 15 10
+3 tsp2 opt2 9 8 10 1
+4 tsp2 opt2 11 7 12 13
+3 tsp2 opt2 13 7 10 9
+4 tsp2 opt2 0 9 1 2
+3 tsp2 opt2 2 9 15 14
+3 tsp2 opt2 14 9 11 10
+3 tsp2 opt2 15 2 14 13
+3 tsp2 opt2 13 2 11 14
+3 tsp2 opt2 14 2 13 10
+3 tsp2 opt2 10 2 12 11
+3 tsp2 opt2 11 2 8 1
+3 tsp2 opt2 6 12 7 8
+5 tsp2 opt2 7 9 8 11
+5 tsp2 opt2 8 12 9 11
+4 tsp2 opt2 10 12 11 13
+4 tsp3 clear
+4 tsp4 opt4 5 6 10 11 13 14 1 2
+5 tsp4 opt2 1 11 2 3
+5 tsp4 opt2 3 11 5 4
+4 tsp4 opt2 4 11 15 14
+4 tsp4 opt2 14 11 13 6
+4 tsp4 opt2 15 4 14 13
+3 tsp4 opt2 13 4 0 1
+3 tsp4 opt2 1 4 3 5
+5 tsp4 opt2 11 6 10 2
+3 tsp4 opt2 6 2 5 14
+3 tsp4 opt2 3 1 2 14
+3 tsp4 opt2 1 14 0 13
+3 tsp1 clear
+3 tsp4 clear
+3 tsp2 clear
+3 tsp3 clear
+3 tsp4 clear
+5 tsp2 clear
+4 tsp1 clear
+4 tsp2 opt4 8 7 4 3 14 13 11 10
+3 tsp2 opt2 14 7 13 12
+3 tsp2 opt2 13 8 12 11
+3 tsp2 opt2 12 7 11 3
+4 tsp2 opt2 11 8 10 4
+5 tsp2 opt2 8 4 7 3
+6 tsp1 opt4 14 15 1 2 4 5 8 9
+5 tsp1 opt2 1 9 2 3
+5 tsp1 opt2 2 8 3 4
+6 tsp1 opt2 3 9 4 15
+3 tsp1 opt2 4 8 5 14
+3 tsp1 opt2 8 14 9 15
+3 tsp1 clear
+3 tsp3 clear
+3 tsp4 clear
+3 tsp4 clear
+3 tsp1 clear
+3 tsp2 clear
+3 tsp0 clear
+3 tsp1 opt4 10 9 7 6 15 14 11 10
+3 tsp1 opt2 15 9 14 13
+3 tsp1 opt2 14 10 13 12
+3 tsp1 opt2 13 9 12 11
+3 tsp1 opt2 12 10 11 6
+3 tsp1 opt2 11 9 10 6
+3 tsp1 opt2 10 7 9 6
+4 tsp0 opt4 8 7 5 4 14 13 11 10
+5 tsp0 opt2 14 7 13 12
+3 tsp0 opt2 13 8 12 11
+3 tsp0 opt2 12 7 11 4
+3 tsp0 opt2 11 8 10 5
+3 tsp0 opt2 8 5 7 4
+3 tsp4 opt4 13 12 9 8 6 5 3 2
+3 tsp4 opt2 13 5 12 11
+3 tsp4 opt2 11 5 9 10
+3 tsp4 opt2 10 5 7 6
+3 tsp4 opt2 2 9 3 4
+3 tsp4 opt2 4 9 6 5
+3 tsp4 opt2 5 9 8 3
+3 tsp4 opt2 3 9 4 6
+3 tsp4 opt2 5 8 6 12
+3 tsp4 opt2 6 9 7 8
+3 tsp4 opt2 7 10 8 12
+3 tsp4 opt2 9 11 10 12
+4 tsp2 clear
+6 tsp4 clear
+4 tsp2 opt4 9 8 6 5 14 13 11 10
+4 tsp2 opt2 14 8 13 12
+3 tsp2 opt2 13 9 12 11
+3 tsp2 opt2 12 8 11 5
+3 tsp2 opt2 11 9 10 6
+3 tsp2 opt2 9 6 8 5
+4 tsp2 clear
+4 tsp4 clear
+4 tsp3 clear
+4 tsp4 clear
+4 tsp1 clear
+4 tsp0 clear
+4 tsp0 clear
+4 tsp1 clear
+4 tsp1 clear
+4 tsp3 clear
+4 tsp1 clear
+4 tsp3 opt4 13 12 9 8 2 1 14 13
+3 tsp3 opt2 14 8 13 1
+3 tsp3 opt2 1 8 2 12
+4 tsp3 opt2 8 12 9 13
+4 tsp3 opt4 9 10 14 15 1 2 4 5
+3 tsp3 opt2 1 10 2 3
+4 tsp3 opt2 2 9 3 4
+3 tsp3 opt2 4 9 5 14
+3 tsp3 opt2 3 10 4 15
+3 tsp3 opt2 9 14 10 15
+4 tsp2 opt4 8 7 3 2 15 14 12 11
+4 tsp2 opt2 15 7 14 13
+3 tsp2 opt2 13 7 11 10
+3 tsp2 opt2 14 8 13 12
+3 tsp2 opt2 13 11 12 2
+3 tsp2 opt2 12 8 11 2
+3 tsp2 opt2 11 3 10 9
+3 tsp2 opt2 9 3 7 10
+3 tsp2 opt2 10 3 9 8
+3 tsp2 opt2 9 7 8 2
+5 tsp2 opt2 8 3 7 2
+4 tsp4 clear
+4 tsp3 clear
+4 tsp1 clear
+4 tsp3 clear
+4 tsp1 clear
+4 tsp4 clear
+4 tsp3 clear
+4 tsp2 clear
+4 tsp1 clear
+4 tsp3 clear
+4 tsp2 clear
+4 tsp4 clear
+4 tsp1 clear
+4 tsp0 opt4 9 8 4 3 1 0 11 10
+4 tsp0 opt2 11 3 10 9
+3 tsp0 opt2 9 3 8 7
+3 tsp0 opt2 10 4 9 0
+4 tsp0 opt2 7 3 8 9
+3 tsp0 opt2 9 3 6 5
+5 tsp0 opt2 3 2 4 5
+3 tsp0 opt2 5 2 6 9
+3 tsp0 opt2 9 2 7 6
+3 tsp0 opt2 6 2 8 7
+3 tsp0 opt2 7 2 5 3
+3 tsp0 opt2 1 8 0 4
+3 tsp0 opt2 9 7 8 4
+3 tsp0 opt2 8 6 7 4
+3 tsp0 opt2 7 5 6 4
+3 tsp2 opt4 10 9 5 4 2 1 14 13
+5 tsp2 opt2 14 4 13 12
+4 tsp2 opt2 12 4 10 11
+3 tsp2 opt2 11 4 0 1
+3 tsp2 opt2 1 4 2 9
+4 tsp2 opt2 0 11 1 2
+5 tsp2 opt2 2 11 15 14
+6 tsp2 opt2 14 11 12 10
+6 tsp2 opt2 4 9 5 13
+4 tsp2 opt2 9 13 10 1
+3 tsp2 opt2 12 14 13 1
+8 tsp2 opt2 14 1 15 2
+4 tsp4 opt4 8 7 3 2 14 13 11 10
+4 tsp4 opt2 14 7 13 12
+3 tsp4 opt2 13 8 12 11
+3 tsp4 opt2 12 7 11 2
+8 tsp4 opt2 11 8 10 3
+4 tsp4 opt2 8 3 7 2
+4 tsp1 clear
+3 tsp3 clear
+4 tsp0 opt4 15 14 9 8 5 4 1 0
+3 tsp0 opt2 15 4 14 13
+3 tsp0 opt2 13 4 0 9
+3 tsp0 opt2 9 4 8 7
+3 tsp0 opt2 8 1 7 6
+3 tsp0 opt2 7 4 6 5
+4 tsp0 opt2 6 1 5 14
+4 tsp0 opt2 1 14 0 13
+4 tsp2 opt4 9 10 13 14 1 2 4 5
+4 tsp2 opt2 1 10 2 3
+3 tsp2 opt2 2 9 3 4
+3 tsp2 opt2 4 9 5 13
+3 tsp2 opt2 3 10 4 14
+3 tsp2 opt2 9 13 10 14
+3 tsp1 clear
+3 tsp1 opt4 5 6 10 11 14 15 2 3
+4 tsp1 opt2 2 11 3 4
+3 tsp1 opt2 4 11 6 7
+3 tsp1 opt2 7 11 9 8
+3 tsp1 opt2 8 11 5 15
+3 tsp1 opt2 15 11 14 6
+3 tsp1 opt2 11 6 10 3
+3 tsp1 opt2 9 7 8 5
+3 tsp1 opt2 7 5 6 3
+3 tsp1 opt2 6 4 5 3
+3 tsp4 clear
+3 tsp3 clear
+3 tsp3 clear
+3 tsp0 clear
+3 tsp3 opt4 10 9 4 3 0 15 13 12
+3 tsp3 opt2 0 9 15 14
+3 tsp3 opt2 15 10 14 13
+3 tsp3 opt2 14 9 13 3
+5 tsp3 opt2 13 10 12 4
+4 tsp3 opt2 10 4 9 3
+3 tsp4 clear
+4 tsp2 opt4 2 3 5 6 13 14 0 1
+5 tsp2 opt2 0 6 1 2
+2 tsp2 opt2 14 2 13 3
+3 tsp2 opt2 6 2 5 1
+2 tsp2 clear
+3 tsp2 opt4 3 4 8 9 11 12 1 2
+2 tsp2 opt2 1 9 2 3
+2 tsp2 opt2 12 3 11 4
+2 tsp2 opt2 9 3 8 2
+2 tsp4 clear
+3 tsp0 opt4 10 9 7 6 4 3 14 13
+2 tsp0 opt2 14 6 13 12
+2 tsp0 opt2 3 10 4 9
+2 tsp0 opt2 6 12 7 13
+3 tsp3 clear
+3 tsp4 opt4 15 14 11 10 5 4 2 1
+3 tsp4 opt2 15 4 14 13
+2 tsp4 opt2 13 4 0 1
+2 tsp4 opt2 1 4 2 10
+3 tsp4 opt2 11 1 10 9
+2 tsp4 opt2 9 1 12 13
+2 tsp4 opt2 13 1 14 15
+2 tsp4 opt2 12 9 13 0
+2 tsp4 opt2 0 9 1 15
+2 tsp4 opt2 15 9 14 13
+3 tsp4 opt2 13 9 14 15
+2 tsp4 opt2 15 9 11 10
+4 tsp4 opt2 4 10 5 14
+2 tsp4 opt2 10 14 11 15
+2 tsp0 clear
+3 tsp2 opt4 6 7 10 11 14 15 1 2
+3 tsp2 opt2 1 11 2 3
+2 tsp2 opt2 3 11 5 4
+2 tsp2 opt2 4 11 0 15
+2 tsp2 opt2 15 11 14 7
+3 tsp2 opt2 0 4 15 14
+2 tsp2 opt2 14 4 1 2
+3 tsp2 opt2 1 14 2 4
+2 tsp2 opt2 4 14 5 3
+2 tsp2 opt2 3 14 0 15
+3 tsp2 opt2 0 3 15 14
+2 tsp2 opt2 14 3 1 2
+3 tsp2 opt2 11 7 10 2
+2 tsp2 opt2 7 2 6 15
+2 tsp2 opt2 2 15 1 14
+2 tsp4 clear
+3 tsp3 clear
+3 tsp1 clear
+3 tsp4 opt4 13 14 0 1 4 5 10 11
+3 tsp4 opt2 0 11 1 2
+2 tsp4 opt2 2 11 15 14
+2 tsp4 opt2 14 11 13 5
+3 tsp4 opt2 4 14 5 6
+2 tsp4 opt2 6 14 3 2
+2 tsp4 opt2 2 14 1 0
+2 tsp4 opt2 5 11 6 3
+2 tsp4 opt2 10 1 11 3
+2 tsp4 opt2 14 0 15 2
+2 tsp4 opt2 0 2 1 3
+2 tsp1 opt4 11 12 14 15 1 2 9 10
+3 tsp1 opt2 1 12 2 3
+2 tsp1 opt2 3 12 5 4
+2 tsp1 opt2 4 12 15 9
+3 tsp1 opt2 2 11 3 4
+2 tsp1 opt2 4 11 5 3
+2 tsp1 opt2 3 11 4 15
+2 tsp1 opt2 9 12 10 11
+2 tsp1 opt2 10 14 11 15
+2 tsp1 opt4 2 3 5 6 9 10 15 0
+2 tsp1 opt2 0 1 15 6
+2 tsp1 opt2 10 2 9 3
+2 tsp1 opt2 6 1 5 0
+3 tsp4 opt4 6 7 9 10 15 0 3 4
+2 tsp4 opt2 0 1 15 7
+2 tsp4 opt2 10 3 9 4
+2 tsp4 opt2 0 6 1 7
+3 tsp0 opt4 12 13 15 0 2 3 5 6
+2 tsp0 opt2 0 1 15 6
+2 tsp0 opt2 5 4 6 1
+2 tsp0 opt2 12 3 13 14
+2 tsp0 opt2 5 0 4 1
+2 tsp0 opt2 3 14 2 13
+2 tsp3 clear
+3 tsp3 opt4 4 5 7 8 13 14 0 1
+4 tsp3 opt2 0 8 1 2
+4 tsp3 opt2 2 8 4 3
+3 tsp3 opt2 3 8 5 6
+3 tsp3 opt2 1 7 2 4
+3 tsp3 opt2 14 4 13 5
+3 tsp3 opt2 8 6 7 4
+3 tsp3 opt2 6 4 5 3
+3 tsp0 clear
+3 tsp2 opt4 9 8 4 3 15 14 12 11
+3 tsp2 opt2 15 8 14 13
+3 tsp2 opt2 14 9 13 12
+3 tsp2 opt2 13 8 12 3
+5 tsp2 opt2 12 9 11 4
+6 tsp2 opt2 9 4 8 3
+5 tsp3 opt4 6 7 9 10 12 13 1 2
+3 tsp3 opt2 1 10 2 3
+3 tsp3 opt2 13 6 12 7
+3 tsp3 opt2 10 3 9 2
+3 tsp1 opt4 5 6 9 10 12 13 0 1
+5 tsp1 opt2 0 10 1 2
+3 tsp1 opt2 2 10 15 14
+3 tsp1 opt2 14 10 12 6
+4 tsp1 opt2 5 13 6 7
+3 tsp1 opt2 1 9 2 15
+3 tsp1 opt2 9 8 10 6
+3 tsp1 opt2 12 14 13 7
+3 tsp1 opt2 14 7 15 9
+3 tsp1 opt2 9 7 8 6
+3 tsp0 opt4 9 8 6 5 3 2 13 12
+3 tsp0 opt2 13 5 12 11
+3 tsp0 opt2 11 5 9 10
+2 tsp0 opt2 10 5 7 6
+3 tsp0 opt2 12 6 11 9
+3 tsp0 opt2 2 9 3 8
+3 tsp0 opt2 6 9 7 10
+3 tsp0 opt4 6 5 0 15 12 11 9 8
+3 tsp0 opt2 0 8 15 14
+3 tsp0 opt2 15 9 14 13
+3 tsp0 opt2 14 8 13 12
+3 tsp0 opt2 13 9 12 5
+3 tsp0 opt2 12 8 11 10
+3 tsp0 opt2 11 6 10 9
+2 tsp0 opt2 10 8 9 5
+3 tsp0 opt2 9 6 8 5
+3 tsp3 opt4 8 9 13 14 3 4 6 7
+3 tsp3 opt2 3 9 4 5
+3 tsp3 opt2 4 8 5 6
+3 tsp3 opt2 5 9 6 14
+3 tsp3 opt2 6 8 7 13
+3 tsp3 opt2 8 13 9 14
+3 tsp0 opt4 5 4 2 1 13 12 6 5
+4 tsp0 opt2 13 4 12 11
+3 tsp0 opt2 11 4 14 15
+2 tsp0 opt2 15 4 1 0
+2 tsp0 opt2 0 4 2 5
+3 tsp0 opt2 12 5 11 14
+3 tsp0 opt2 6 1 5 14
+6 tsp0 opt2 2 0 1 14
+3 tsp0 opt2 1 15 0 14
+3 tsp1 opt4 6 5 15 14 12 11 8 7
+3 tsp1 opt2 15 7 14 13
+3 tsp1 opt2 13 7 11 10
+3 tsp1 opt2 14 8 13 12
+3 tsp1 opt2 13 11 12 5
+3 tsp1 opt2 12 8 11 5
+3 tsp1 opt2 11 6 10 9
+3 tsp1 opt2 10 7 9 8
+3 tsp1 opt2 9 6 8 5
+3 tsp2 opt4 14 13 8 7 5 4 15 14
+3 tsp2 opt2 15 7 14 4
+3 tsp2 opt2 4 7 5 13
+3 tsp2 opt2 7 13 8 14
+3 tsp4 clear
+3 tsp3 opt4 4 5 7 8 14 15 1 2
+3 tsp3 opt2 1 8 2 3
+3 tsp3 opt2 15 4 14 5
+4 tsp3 opt2 8 3 7 2
+2 tsp1 opt4 4 3 1 0 12 11 6 5
+3 tsp1 opt2 12 3 11 10
+5 tsp1 opt2 11 4 10 9
+3 tsp1 opt2 10 3 9 8
+3 tsp1 opt2 9 4 8 7
+3 tsp1 opt2 8 3 7 6
+3 tsp1 opt2 7 4 6 0
+2 tsp1 opt2 6 3 5 4
+2 tsp1 opt2 5 1 4 0
+2 tsp3 clear
+2 tsp2 clear
+2 tsp2 clear
+2 tsp4 opt4 9 10 15 0 2 3 5 6
+2 tsp4 opt2 0 1 15 6
+2 tsp4 opt2 5 4 6 1
+3 tsp4 opt2 9 3 10 11
+2 tsp4 opt2 11 3 7 6
+2 tsp4 opt2 0 5 1 2
+2 tsp4 opt2 1 4 2 10
+2 tsp4 opt2 2 5 3 4
+2 tsp4 opt2 3 6 4 10
+2 tsp2 opt4 12 11 9 8 4 3 15 14
+2 tsp2 opt2 15 8 14 13
+2 tsp2 opt2 3 12 4 11
+2 tsp2 opt2 8 13 9 14
+16 state 'init 2-Opt'
+3 state 'run 2-Opt'

@@ -1,0 +1,7 @@
+att532.tsp meme,c:5,sfc,invx,r4,lk ;att532.tsp meme,c:5,sfc,invx,r4,2opt ;0.211710 ;    0:191761 ;
+att532.tsp meme,c:5,sfc,invx,r4,2lk ;att532.tsp meme,c:5,sfc,invx,r4,2opt ;3125 ;    0:191915 ;
+att532.tsp meme,c:5,sfc,invx,2opt ;3125 ;    0:191896 ;
+att532.tsp meme,c:5,sfc,2opt ;att532.tsp meme,c:5,sfc,2opt ;29044 ;    8:457368 ;
+att532.tsp meme,c:5,sfc,2lk ;27868 ;  184:42287  ;
+../codigojava/resources/circle16.tsp MEME+2opt ;16 ;    0:83608  ;16 ;    0:83958  ;
+../codigojava/resources/circle16.tsp MEME+2opt ;16 ;    0:54930  ;16 ;    0:55118  ;

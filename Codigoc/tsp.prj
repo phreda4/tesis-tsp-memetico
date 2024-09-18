@@ -1,0 +1,21 @@
+#
+# xwpe - project-file: tsp.prj
+# createted by xwpe version Version 1.4.2
+#
+ 
+
+CMP=	g++
+CMPFLAGS=	-g -o3
+LDFLAGS=	
+EXENAME=	tsp
+CMPSWTCH=	gnu
+CMPMESSAGE=	'${?*:warning:}\"${FILE}\", line ${LINE}:* at or near * \"${COLUMN=AFTER}\"'
+
+FILES=	/home/pablo/tesis/c++/aalgo.cc /home/pablo/tesis/c++/gen.cc  \
+	/home/pablo/tesis/c++/kdtree.cc /home/pablo/tesis/c++/lk.cc /home/pablo/tesis/c++/opt2.cc  \
+	/home/pablo/tesis/c++/opt3.cc /home/pablo/tesis/c++/pointset.cc /home/pablo/tesis/c++/time.cc  \
+	/home/pablo/tesis/c++/tourc.cc /home/pablo/tesis/c++/tsp.cc /home/pablo/tesis/c++/tspmeme.cc  \
+	/home/pablo/tesis/c++/tspmf.cc /home/pablo/tesis/c++/tspnn.cc /home/pablo/tesis/c++/tspsfc.cc   
+
+install:
+	 

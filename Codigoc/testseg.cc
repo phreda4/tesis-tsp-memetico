@@ -1,0 +1,32 @@
+/////////////////////////////////////////////////////////////////////
+//
+//
+//
+/////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+#include <stdlib.h>
+#include "pointset.h"
+#include "tour.h"
+
+/////////////////////////////////////////////////////////////////////
+void main()
+{
+int i,j;
+Tour st;
+PointSet pset;
+
+pset.load("rand10.tsp");
+st.init(&pset);
+
+for (i=0;i<10;i++)
+  st.addPoint(i);
+
+st.print();
+
+st.flip(2,3,7,8);
+st.flip(6,5,4,3);
+
+st.makePermanent();
+
+st.print();
+}
